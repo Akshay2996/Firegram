@@ -45,7 +45,7 @@ label {
 	width: 30px;
 	height: 30px;
 	border: 1px solid var(--primary);
-	border-radius: 50%;
+	border-radius: 30%;
 	margin: 10px auto;
 	line-height: 30px;
 	color: var(--primary);
