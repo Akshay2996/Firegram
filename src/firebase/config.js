@@ -20,4 +20,7 @@ const projectStorage = firebase.storage();
 // Use this variable to interact with the Firestore Database
 const projectFirestore = firebase.firestore();
 
-export { projectStorage, projectFirestore };
+// Use this variable for the timestamp
+const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+
+export { projectStorage, projectFirestore, timestamp };

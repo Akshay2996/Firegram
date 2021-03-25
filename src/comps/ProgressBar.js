@@ -6,6 +6,7 @@ const ProgressBar = ({ file, setFile }) => {
 
 	useEffect(() => {
 		if (url) {
+			// After getting url remove the progress bar
 			setFile(null);
 		}
 	}, [url, setFile]);
