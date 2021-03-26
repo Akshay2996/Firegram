@@ -73,5 +73,28 @@ label:hover {
 }
 
 /* image grid styles */
+.image-grid {
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.image-wrap {
+	overflow: hidden;
+	height: 0;
+	padding: 50% 0;
+	/* padding controls height, will always be perfectly square regardless of width */
+	position: relative;
+}
+
+.image-wrap img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	max-width: 150%;
+}
 
 /* modal styles */
